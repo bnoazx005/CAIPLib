@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{da7e0863-0fc8-4aaa-889c-e0ef4d66c177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{9870d8b5-0d67-41da-bd10-1288609c83fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CAIPLib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CAIPTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CAIPUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CAIPKernels.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\CAIPUtils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="source\CAIPBlur.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="source\CAIPEdgeDetectors.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="source\CAIPImageSpaceConverters.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="source\CAIPNoiseFilters.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="source\CAIPUtils.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="source\CAIPLib.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
