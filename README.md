@@ -14,8 +14,9 @@ An interface of the library were built in C-style. All of them were documented u
 
 **Requirements**
 
-*A video card compatible with CUDA technology;
-*Installed CUDA library (The project was developed with the 7.0th version of library);
+* A video card compatible with CUDA technology;
+
+* Installed CUDA library (The project was developed with the 7.0th version of library);
 
 **Getting started:**
        
